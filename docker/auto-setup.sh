@@ -4,7 +4,7 @@ set -eu -o pipefail
 
 # === Auto setup defaults ===
 
-: "${DB:=cassandra}"
+: "${DB:=postgres12}"
 : "${SKIP_SCHEMA_SETUP:=false}"
 : "${SKIP_DB_CREATE:=false}"
 
